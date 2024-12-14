@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Quicksand',sans-serif ;
+}
+.primary-textt{
+    color: yellowgreen;
+    
+}
+#navbar img{
+width: 80px;
+margin-left: 100px;
+}
+  
+header{
+    background: url(./images/home_bg.jpeg)center center/cover no-repeat;
+    height: 100vh;
+    
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#navbar ul{
+    display: flex;
+    margin-right: 100px;
+}
+#navbar ul li a{
+    padding: 20px 20px;
+    color: white;
+    font-size: 600;
+}
+#navbar ul li a:hover{
+ border-bottom: 2px solid chocolate;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+    width: 85%;
+    height: 75%;
+    color: aqua;
+    
+    
+}
+.content h1{
+    font-size: 40px;
+    color: white;
+}
+.content p{
+    margin: 2px 0 40px;
+    color: white;
+}
+.containar{
+    
+   margin: auto;
+   max-width: 1100px;
+  
+}
+#about{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+}
+.title{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.title h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #383848;
+
+}
+.title p {
+    font-size: 14px;
+    color: #9a9a9a;
+    font-weight: 600;
+}
+.about-content{
+    display: flex;
+    justify-content: space-between;
+}
+.about-content img{
+    width:450px ;
+}
+.about-content p{
+    font-weight: 500;
+    line-height: 1.6;
+    margin-right: 7rem;
+    color: #9a9a9a;
+}
+#offers{
+    background: url(./images/offer-background.jpg) center center/cover;
+   height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+.titlee{
+  text-align: center;
+    margin-bottom: 2rem;
+}
+.titlee h2{
+    color: yellow;
+    font-size: 40px;
+}
+.titlee p{
+    color: #9a9a9a;
+    font-weight: 500;
+}
+
+   
+
+.offers-item img{
+    width: 150px;
+    
+}
+
+.offers-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #f4f4f4;
+}
+.offers-item h3{
+    font-size: 25px;
+    margin: 5px 0;
+
+}
+.primary-text{
+    font-size: 18px;
+    font-weight: 300;
+}
+#menu{
+    background: #f4f4f4;
+    padding: 5rem 0;
+}
+.menu-items{
+display: flex;
+justify-content: center;
+}
+.titles{
+    text-align: center;
+
+height: 50px;
+margin-bottom: 2rem;
+
+}
+.titles h2{
+    font-size: 40px;
+    margin-bottom: 1rem;
+    color: #383848;
+}
+.titles p{
+    font-weight: 300;
+    color: #9a9a9a;
+    margin-bottom: 4rem;
+}
+   .menu-item{
+    display: flex;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-top: 5rem;
+   }
+   .menu-item h3{
+    border-bottom: 1px #c2bdbd;
+    color: #383848;
+   }
+   .primary-text{
+    color: chocolate;
+   }
+   .food-gallery img{
+    width: 280px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 20px;
+   }
+   #gallery{
+    background: url(./images/offer-background.jpg) center center/cover no-repeat;
+   }
+   #gallery h2{
+    text-align: center;
+    font-size: 50px;
+    color: chocolate;
+    margin-bottom: 5rem;
+   }
+   .tel{
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+   }
+   .tel span{
+    width: 30px;
+    height: 3px;
+    background-color: #c2bdbd;
+   
+   }
+   .nav-links.play{
+    display: flex;
+   }
+   .tel{
+    display: flex;
+   }
+
+   #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  }
+  
+  #nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  #nav-links li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+  }
+  
+  #nav-links li a.active {
+    color: white;
+    background-color: #ff6347; /* Your highlight color */
+    border-radius: 5px;
+  }
+  .bt{
+    display: inline;
+    padding: 20;
+    border: 20px;
+    border-radius: 5px;
+}
+ .btn-secondry{
+   background : #383848;
+   color: #f4f4f4;
+   margin-top: 2rem;
+   
+
+ }
+.btn-primary:hover{
+   background-color: rgb(109, 109, 107);
+}
+.btn-secondry:hover{
+    background-color: rgb(84, 84, 84);
+
+}
